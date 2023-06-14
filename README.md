@@ -1,0 +1,12 @@
+# CelebrationBot
+![nome_immagine](https://raw.githubusercontent.com/RicordiTV/CelebrationBot/main/Immagine.png)
+
+Immagina di avere a disposizione un software straordinario, completo di una vasta gamma di funzionalità avanzate, che ti permette di creare domande personalizzate a tema o predefinite per il tuo canale Twitch in modo estremamente semplice ed efficace. Questo software è un vero e proprio alleato per tutti gli streamer, che siate dei professionisti affermati o dei principianti ambiziosi desiderosi di fare il salto di qualità.
+
+Una delle caratteristiche più eccezionali di questo software è la sua integrazione avanzata con OBS e altri programmi di streaming simili. Grazie a questa integrazione, potrai sfruttare appieno la potenza della modalità green screen, che ti consentirà di creare un'esperienza visiva coinvolgente e professionale per i tuoi spettatori. Potrai immergerli completamente nel tuo mondo, creando un ambiente dinamico e accattivante.
+
+Oltre alla flessibilità offerta per la creazione delle domande, avrai a disposizione una vasta gamma di opzioni di personalizzazione. Potrai selezionare tra diversi stili di testo, sfondi e animazioni, consentendoti di creare domande accattivanti, coinvolgenti e in linea con il tuo stile unico. Questo ti permetterà di catturare l'attenzione dei tuoi spettatori e mantenere il loro interesse costante nel corso dello streaming.
+
+La gestione delle domande durante lo streaming sarà un gioco da ragazzi grazie a questo software. Avrai la possibilità di programmare le domande in anticipo o di generarle in tempo reale, offrendo ai tuoi spettatori una varietà di contenuti interattivi e stimolanti. La tua creatività non avrà limiti, potrai creare un'esperienza unica ed emozionante per il tuo pubblico, coinvolgendoli attivamente nel tuo contenuto.
+
+In definitiva, se il tuo obiettivo è portare il tuo canale Twitch ad un livello superiore, non puoi fare a meno di questo software straordinario. Grazie alla sua vasta gamma di funzionalità avanzate, all'integrazione impeccabile con OBS e altre applicazioni di streaming e alla capacità di creare domande coinvolgenti e personalizzate, sarai in grado di offrire un'esperienza di streaming indimenticabile che lascerà il segno nel cuore dei tuoi spettatori. Prepara le tue domande, accendi il tuo green screen e preparati a sorprendere il tuo pubblico con un contenuto di altissima qualità!
