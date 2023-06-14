@@ -1,5 +1,5 @@
 # CelebrationBot
-![nome_immagine](https://raw.githubusercontent.com/RicordiTV/CelebrationBot/main/Immagine.png)
+![nome_immagine](https://raw.githubusercontent.com/RicordiTV/CelebrationBot/main/Immagine.png) 
 
 Immagina di avere a disposizione un software straordinario, completo di una vasta gamma di funzionalità avanzate, che ti permette di creare domande personalizzate a tema o predefinite per il tuo canale Twitch in modo estremamente semplice ed efficace. Questo software è un vero e proprio alleato per tutti gli streamer, che siate dei professionisti affermati o dei principianti ambiziosi desiderosi di fare il salto di qualità.
 
