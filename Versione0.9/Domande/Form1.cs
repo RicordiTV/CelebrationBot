@@ -1096,11 +1096,6 @@ namespace Domande
 
 
 
-            string coloreHtml = Properties.Settings.Default.ColoreSfondo;
-
-            Color mioColore = ColorTranslator.FromHtml(coloreHtml); // Convert the HTML color string to a Color object
-
-            this.BackColor = mioColore; // Set the background color of the control
 
 
             string nomeTipoCarattere = Properties.Settings.Default.FontTipo;
@@ -1145,7 +1140,7 @@ namespace Domande
             var response = await httpClient.GetAsync(url);
             var content = await response.Content.ReadAsStringAsync();
             aggiornamento = "NO";
-            if (double.TryParse(content, out double value) && value > 8)
+            if (double.TryParse(content, out double value) && value > 7)
             {
                 aggiornamento = "SI";
                 var result = MessageBox.Show($"È disponibile una nuova versione. Desideri installarla?", "Conferma", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -2062,12 +2057,8 @@ namespace Domande
           
             if (result == DialogResult.Yes)
             {
-
-
-                Color mioColore = Color.FromArgb(this.BackColor.ToArgb()); // Il tuo colore ARGB
-                string coloreHtml = ColorTranslator.ToHtml(mioColore); // Convert the color to its HTML representation
-                Properties.Settings.Default.ColoreSfondo =coloreHtml.ToString();
-                 Properties.Settings.Default.FontTipo = label1.Font.Name;
+               
+                Properties.Settings.Default.FontTipo = label1.Font.Name;
                 Properties.Settings.Default.FontPX = Math.Round(label1.Font.Size, MidpointRounding.AwayFromZero).ToString();
                 Color colore = label1.ForeColor;
                 string coloreRGB = $"{colore.R},{colore.G},{colore.B}";
@@ -2349,16 +2340,8 @@ namespace Domande
             DialogResult result = MessageBox.Show("Vuoi davvero resettare le impostazioni originali?", "Alert", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
+               
 
-
-
-
-
-
-
-
-
-                Properties.Settings.Default.ColoreSfondo = "#00C000";
                 Properties.Settings.Default.FontTipo = "Segoe Print";
                 Properties.Settings.Default.FontPX = "15";
                 label1.ForeColor = Color.Purple;
@@ -2790,7 +2773,7 @@ namespace Domande
         }
         string aggiornamento = "";
         string convalidato;
-        string versione = "0.9";
+        string versione = "0.8B";
         private void label5_Click_1(object sender, EventArgs e)
         {
             Process currentProcess = Process.GetCurrentProcess();
@@ -2805,7 +2788,7 @@ namespace Domande
             // Converti il peso del file da byte ad altre unità di misura
             double fileSizeInKb = fileSizeInBytes;
             
-            if(fileSizeInBytes== 501760)
+            if(fileSizeInBytes== 500736)
             {
                 convalidato = "SI";
             }else{
@@ -3349,22 +3332,7 @@ namespace Domande
 
         private void button13_Click_1(object sender, EventArgs e)
         {
-            ColorDialog colorDialog = new ColorDialog();
 
-            if (colorDialog.ShowDialog() == DialogResult.OK)
-            {
-                // Ottieni il colore selezionato
-                Color selectedColor = colorDialog.Color;
-
-                // Imposta lo sfondo del form
-                this.BackColor = selectedColor;
-               
-            }
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-          
         }
     }
     }

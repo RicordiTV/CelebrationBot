@@ -18,7 +18,7 @@
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="ColoreSfondo" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#800080</Value>
+      <Value Profile="(Default)">0; 192; 0</Value>
     </Setting>
   </Settings>
 </SettingsFile>

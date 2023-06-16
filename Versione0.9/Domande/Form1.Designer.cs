@@ -806,10 +806,10 @@
             this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label5.Location = new System.Drawing.Point(1, 799);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(887, 20);
+            this.label5.Size = new System.Drawing.Size(900, 20);
             this.label5.TabIndex = 77;
-            this.label5.Text = "[Versione: 0.9] [Software sviluppato da RicordiTV https://www.twitch.tv/ricorditv" +
-    "] - Clicca per assistenza";
+            this.label5.Text = "[Versione: 0.8B] [Software sviluppato da RicordiTV https://www.twitch.tv/ricordit" +
+    "v] - Clicca per assistenza";
             this.label5.Click += new System.EventHandler(this.label5_Click_1);
             // 
             // button8
@@ -1383,11 +1383,10 @@
             // 
             // button13
             // 
-            this.button13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(1158, 141);
+            this.button13.Location = new System.Drawing.Point(1248, 141);
             this.button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(239, 47);
+            this.button13.Size = new System.Drawing.Size(149, 23);
             this.button13.TabIndex = 128;
             this.button13.Text = "Cambia colore sfondo";
             this.button13.UseVisualStyleBackColor = true;
