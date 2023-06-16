@@ -85,7 +85,7 @@ namespace Domande.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0; 192; 0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#800080")]
         public string ColoreSfondo {
             get {
                 return ((string)(this["ColoreSfondo"]));
