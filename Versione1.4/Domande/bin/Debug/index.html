@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refresh Immagine</title>
+</head>
+<body style="background-color: #00c000;">
+
+<center><img id="myImage" src="image2.png" alt="Your Image"></center>
+
+<script>
+    var currentImageSrc = 'image2.png'; // Salva l'URL dell'immagine corrente
+
+    setInterval(function() {
+        var image = document.getElementById('myImage');
+        
+        // Salva l'URL corrente prima di tentare di caricare la nuova immagine
+        var previousImageSrc = image.src;
+        
+        // Aggiunge un timestamp per evitare la cache del browser
+        image.src = currentImageSrc + '?' + new Date().getTime();
+
+        // Gestisci l'errore nel caricamento dell'immagine
+        image.onerror = function() {
+            console.log("Immagine non disponibile");
+            // Ripristina l'URL precedente in caso di errore
+            image.src = previousImageSrc;
+        };
+    }, 50);
+</script>
+</body>
+</html>
